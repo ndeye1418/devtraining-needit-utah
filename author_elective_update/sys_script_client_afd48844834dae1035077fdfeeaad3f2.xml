@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>task6</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+	alert(g_scratchpad.jo_sysid);
+  
+    // var ga = new GlideAjax('x_58872_needit.SysPropritiesUtils');
+    // ga.addParam('sysparm_name', 'getpropritie');
+    // ga.getXML(getreponse);
+
+
+    // function getreponse(response) {
+	// 	var answer = response.responseXML.documentElement.getAttribute("answer"); 
+	// 	alert(answer);
+    //     if (g_form.getValue('caller_id') == answer) {
+
+    //         alert("You can not submit Incident for Joe Employee");
+    //         g_form.addErrorMessage("You can not submit Incident for Joe Employee");
+    //         return false;
+
+    //     }
+    // }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-16 14:23:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>afd48844834dae1035077fdfeeaad3f2</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>task6</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_client_afd48844834dae1035077fdfeeaad3f2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-17 12:32:34</sys_updated_on>
+        <table>incident</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>73f114813b7ce2d416e44a8aa4e45ac1</instance_id>
+        <instance_name>dev319890</instance_name>
+        <name>sys_script_client_afd48844834dae1035077fdfeeaad3f2</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;task6&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onSubmit() {
+	alert(g_scratchpad.jo_sysid);
+  
+    // var ga = new GlideAjax('x_58872_needit.SysPropritiesUtils');
+    // ga.addParam('sysparm_name', 'getpropritie');
+    // ga.getXML(getreponse);
+
+
+    // function getreponse(response) {
+	// 	var answer = response.responseXML.documentElement.getAttribute("answer"); 
+	// 	alert(answer);
+    //     if (g_form.getValue('caller_id') == answer) {
+
+    //         alert("You can not submit Incident for Joe Employee");
+    //         g_form.addErrorMessage("You can not submit Incident for Joe Employee");
+    //         return false;
+
+    //     }
+    // }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-04-16 14:23:55&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;afd48844834dae1035077fdfeeaad3f2&lt;/sys_id&gt;&lt;sys_mod_count&gt;11&lt;/sys_mod_count&gt;&lt;sys_name&gt;task6&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_afd48844834dae1035077fdfeeaad3f2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-04-17 12:32:34&lt;/sys_updated_on&gt;&lt;table&gt;incident&lt;/table&gt;&lt;type&gt;onSubmit&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>936339667</payload_hash>
+        <record_name>task6</record_name>
+        <reverted_from/>
+        <source>bc734044834dae1035077fdfeeaad37c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 12:32:34</sys_created_on>
+        <sys_id>3e3738508345225035077fdfeeaad3b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19643bc941f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-17 12:32:34</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>b2373850a6452250ed95a17317fcb5b3</update_guid>
+        <update_guid_history>b2373850a6452250ed95a17317fcb5b3:936339667,4db6b810bb452250cd7eef1827549b4b:-1374680263,1de4789cba052250dc83b1b237a602b3:-899564833,b91d98102bc12250d7c6e0190c720a72:-119414323,5f2b949cb88122501d940afdb12a32a0:-298740174,74851c90a6812250f0c58d415f4bd190:-498250602,21a418945781225019a45c44ea961e3f:-1391945153,3d4190900e8122500160181dc6a1e918:182252880,d79f045c0f412250e1ea28cef07165fb:-1022353756,350840c8cb4dae10fca5ad46de9cd244:-1147941029,c8b7c808bd4dae10ea12ec5568750101:-371988231,8827c848f64dae10818575ce3d02f770:-1077927962</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 13:22:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>4e3987d0ecf5405ebfb775a7cacf9cc4</sys_id>
+        <sys_metadata>afd48844834dae1035077fdfeeaad3f2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>task6</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="Incident">40c6b3ae5c8022105590c762d23e6377</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_script_client_afd48844834dae1035077fdfeeaad3f2</sys_update_name>
+        <sys_update_version display_value="sys_script_client_afd48844834dae1035077fdfeeaad3f2">3e3738508345225035077fdfeeaad3b3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-17 13:22:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
